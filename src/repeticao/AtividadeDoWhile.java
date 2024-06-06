@@ -20,7 +20,8 @@ public class AtividadeDoWhile {
 			
 		}while(numero != 0);
 		
-		
+		scanner.close();
+
 		if(total != 0) {
 			media = (float) soma/total;
 			System.out.printf("A média de todos os números múltiplos de 3 é: %.1f", media);

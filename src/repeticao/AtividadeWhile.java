@@ -2,7 +2,6 @@ package repeticao;
 
 import java.util.Locale;
 import java.util.Scanner;
-import java.util.Scanner;
 
 public class AtividadeWhile {
 	public static void main(String[] args) {
@@ -74,6 +73,8 @@ public class AtividadeWhile {
 			System.out.println("\n\nDeseja adicionar outra pessoa? n = Não, s = Sim");
 			continua = Character.toLowerCase(scanner.next().charAt(0));
 		}
+		
+		scanner.close();
 
 		mediaIdade = (float) mediaIdade / total;
 		
