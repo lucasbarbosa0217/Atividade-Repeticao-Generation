@@ -25,6 +25,8 @@ public class AtividadeFor2 {
 				impares++;
 			}
 		}
+		
+		scanner.close();
 		System.out.printf("Total de números pares: %d", pares);
 		System.out.printf("%nTotal de números ímpares: %d", impares);
 	}

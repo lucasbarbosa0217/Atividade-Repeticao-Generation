@@ -15,7 +15,7 @@ public class AtividadeWhile2 {
 
 		Scanner scanner = new Scanner(System.in);
 		int idade = 0, anos21 = 0, anos50 = 0;
-		float media;
+	
 
 		while(idade >= 0) {
 			System.out.print("Digite uma idade: ");

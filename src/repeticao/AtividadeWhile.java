@@ -59,14 +59,10 @@ public class AtividadeWhile {
 			System.out.print("Qual o id do cargo? ");
 			idCargo = scanner.nextInt();
 
-			if (idCargo == 1)
-				qtdBackend++;
-			if ((idGenero == 1 || idGenero == 4) && idCargo == 2)
-				mulheresFront++;
-			if ((idGenero == 2 || idGenero == 5) && idCargo == 3 && idade > 40)
-				homensMobile40++;
-			if (idGenero == 3 && idCargo == 4 && idade < 30)
-				nbFullstack30++;
+			if (idCargo == 1) qtdBackend++;
+			if ((idGenero == 1 || idGenero == 4) && idCargo == 2) mulheresFront++;
+			if ((idGenero == 2 || idGenero == 5) && idCargo == 3 && idade > 40) homensMobile40++;
+			if (idGenero == 3 && idCargo == 4 && idade < 30) nbFullstack30++;
 			total++;
 			mediaIdade += idade;
 
